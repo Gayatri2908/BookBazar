@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Quicksand", sans-serif;
+    background:rgb(4, 1, 52);
+    color: #fff;
+}
+section{
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    font-size: 3rem;
+    margin: 5rem 0rem;
+}
+.faq{
+    max-width: 700px;
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+   
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.question h3{
+    font-size: 1.5rem;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+.answer p{
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+}
+.faq.active .answer{
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+}
+.faq.active svg{
+    transform: rotate(180deg);
+}
+svg{
+    transition: transform .5s ease-in;
+}
+@keyframes fade{
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.navbar{
+    background-color: rgb(247, 123, 22);
+    padding: 10px 0;
+    list-style: none;
+    align-items: center;
+    justify-content: left;
+    color: white;
+    font-family: Arial;
+    display: flex;
+    height: 50px;
+    text-decoration: none;
+}
+.navbar ul{
+    list-style: none;
+    width: 100%;
+}
+.navbar ul a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.navbar ul:hover a{
+    background: rgb(4, 1, 52);
+}
+footer{
+    margin-top: 15px;
+}
+
+.footer{
+    background-color: rgb(247, 123, 22);
+    height: 50px;
+    padding: 10px 0;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: Arial;
+   
+    text-decoration: none; 
+    width: 100%;
+    
+}
+
+
+.footer ul a{
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    color: #fff;
+    justify-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+    
+}
+
