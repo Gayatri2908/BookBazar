@@ -1,0 +1,352 @@
+html,body {
+    height:95%;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    
+    background-size: cover;
+    box-shadow: inset;
+    
+}
+body {
+     display: flex;
+     flex-direction: column;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(books.jpeg);
+}
+
+.image_overlay{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(32, 32, 34, 0.475);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+header {
+    background-color: rgb(4, 1, 52);
+    color: rgb(234, 217, 217);
+    padding: 10px 0;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* margin-right:25px;
+       margin-left:25px; */
+
+    width: 100%;
+    
+   
+}
+header li{
+    list-style: none;
+    font-size: 15px;
+    font-family: Arial;
+    color: orange;
+}
+
+
+
+.navbar ul, .navbar li{
+    margin: 0;
+    padding: 0;
+}
+.navbar ul{
+    list-style: none;
+    width: 100%;
+}
+.navbar li{
+    float: left;
+    position: relative;
+    width: auto;
+}
+.navbar ul li{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.navbar a{
+    display: block;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    font-size: 15px;
+    margin-bottom: 10px;
+    
+}
+.navbar li:hover a{
+     background: orange;
+}
+.navbar ul button:hover a{
+    background: orange;
+}
+#dropdown{
+    
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    display: block;
+    visibility: hidden;
+    z-index :1;
+    left:0;
+}
+
+
+li:hover ul#dropdown{
+    opacity: 1;
+    top: 53px;
+    visibility: visible;
+}
+#dropdown li{
+    width: 100%;
+    float:none;
+}
+
+
+
+/* Updated CSS */
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 10px;
+    /* Decrease width */
+    justify-content: space-evenly; /* Align items horizontally with space between */
+    padding: 10px 50px; /* Add padding */
+    background-color: rgb(4, 1, 52);
+}
+
+
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(255,255,255,0.2);
+    width: 250px;
+    height: 35px;
+    border-radius: 60px;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
+
+.search-input {
+    width: 80%;
+    font-size: 0.9rem;
+    border: none;
+    font-family: "Arial";
+    padding: 10px 20px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    background-color: rgba(255,255,255,0.2);
+    color: white;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    /* background-color: orange; */
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: white;
+    padding: 10px 6px;
+}
+
+.nav-search:hover {
+    border: 2px solid white
+}
+
+
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+
+
+
+.box{
+    
+    
+    height: 350px;
+    width: 100%;
+    
+    /* padding: 20px 0px 15px; */
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+
+footer{
+    margin-top: 15px;
+}
+
+
+
+.foot-panel2{
+    background-color:rgb(4, 1, 52);
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 10px ;
+}
+
+ul a {
+     display: block;
+     font-size: 0.9rem;
+     margin-top: 10px;
+     color: #dddddd;
+}
+
+.foot-panel4{
+    background-color:orange;
+    color: white;
+    height: 45px;
+    justify-content: center;
+}
+.pages{
+    font-size: 0.9rem;
+    text-align: center;
+    padding-top: 25px;
+}
+.copyright{
+    padding-top: 12px;
+    font-size: 0.9rem;
+     text-align: center;
+}
+.icons{
+    justify-content: space-evenly;
+
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(4, 1, 52);
+    
+}
+
+.hero-message{
+    background-image: linear-gradient(to right, #f9989f, #fccb8f, #faf096);
+    color: black;
+    /* margin-top: 15px; */
+    height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 15px;
+    color:red;
+}
+.hero-message p{
+    font-size: 20px;
+}
+.hero-message a {
+     color: rgb(17,107,143);;
+}
+
+.shop-sec{
+    display: flex;
+
+    background-color: rgb(4, 1, 52);
+    
+
+}
+
+
+
+.header-content{
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 80px;
+}
+.header-content h1{
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 600;
+    max-width: 650px;
+    color: white;
+}
+.header-content h3{
+    color: white;
+}
+.header-content p{
+    color: white;
+}
+.header-content h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.email-signup{
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+.email-signup button{
+    background:orange;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+form input ::placeholder{
+    font-family: Arial;
+    font-size: 30px;
+}
+.highlight{
+    background-image: linear-gradient(to right, #f9989f, #fccb8f, #faf096);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
