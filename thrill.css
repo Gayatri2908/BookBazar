@@ -1,0 +1,147 @@
+body{
+    background-color: rgb(4, 1, 52);
+    margin: 0;
+    padding: 0;
+}
+.shop-sec{
+    display: inline;
+    
+    background-color: rgb(4, 1, 52);
+    
+
+}
+
+.box{
+    
+    border: 2px solid rgb(227, 146, 25);
+    height: 350px;
+    width: 20%;
+    
+    /* padding: 20px 0px 15px; */
+    margin-top: 75px;
+    margin-bottom: 200px;
+    margin-left: 150px;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    background-image: cover;
+    margin-top: 0;
+    align-items: center;
+   
+    margin-bottom: 0.5rem;
+
+
+}
+
+.box-content{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.box-content p {
+    margin-bottom: 0;
+    color:#007185;
+    margin-bottom: 1rem
+}
+.box-content h2 {
+    margin-top: 0.5rem;
+    
+}
+
+.text1{
+    width: 20%;
+    height: 300px;
+    background-color: white;
+    float: right;
+    align-items: center;
+    display: inline-block;
+    padding-right: 40px;
+    padding-left: 40px;
+
+    
+    /* padding: 20px 0px 15px; */
+    margin-top: -535px;
+    margin-bottom: 70px;
+    margin-left: 800px;
+    margin-right: 150px;
+    background-color:#000000;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+    
+}
+.text2{
+    width: 20%;
+    height: 300px;
+    background-color: white;
+    float: right;
+    align-items: center;
+    display: inline-block;
+    padding-right: 40px;
+    padding-left: 40px;
+    /* padding: 20px 0px 15px; */
+    margin-top: -535px;
+    margin-bottom: 100px;
+    margin-left: 800px;
+    margin-right: 150px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.navbar{
+    background-color: orange;
+    padding: 10px 0;
+    list-style: none;
+    align-items: center;
+    justify-content: left;
+    color: white;
+    font-family: Arial;
+    display: flex;
+    height: 18px;
+    text-decoration: none;
+}
+.navbar ul{
+    list-style: none;
+    width: 100%;
+}
+.navbar ul a{
+    color: #fff;
+    text-decoration: none;
+}
+/* .navbar ul:hover a{
+    background: rgb(4, 1, 52);
+} */
+/* footer{
+    margin-top: 15px;
+} */
+
+.footer{
+    background-color: orange;
+    height: 40px;
+    padding: 6.5px;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: Arial;
+   font-size: 15px;
+    text-decoration: none; 
+    width: 100%;
+    
+}
+
+
+.footer ul a{
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    color: #fff;
+    justify-items: center;
+    justify-content: center;
+    
+    
+    
+}
+
